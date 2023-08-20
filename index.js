@@ -14,7 +14,7 @@ app.use(
 
 require("dotenv").config();
 
-const API_KEY = "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"; // Reemplaza con tu clave de API
+const API_KEY = "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"; // Reemplaza con tu clave de API
 
 app.post("/generate-completion", async (req, res) => {
   const { prompt } = req.body;
