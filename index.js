@@ -7,7 +7,7 @@ app.use(express.json());
 // Configuración de middleware
 app.use(
   cors({
-    origin: "http://localhost:3000", // Cambia esto según la dirección de tu cliente React
+    origin: "https://descubrir-digital.vercel.app", // Cambia esto según la dirección de tu cliente React
     credentials: true,
   })
 );
