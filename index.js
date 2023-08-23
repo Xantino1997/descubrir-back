@@ -7,14 +7,14 @@ app.use(express.json());
 // Configuración de middleware
 app.use(
   cors({
-    origin: "https://descubrir-digital.vercel.app", // Cambia esto según la dirección de tu cliente React
+    origin: "https://descubrir-digital.com.ar", // Cambia esto según la dirección de tu cliente React
     credentials: true,
   })
 );
 
 require("dotenv").config();
 
-const API_KEY = "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"; // Reemplaza con tu clave de API
+const API_KEY = "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"; // Reemplaza con tu clave de API
 
 app.post("/generate-completion", async (req, res) => {
   const { prompt } = req.body;
