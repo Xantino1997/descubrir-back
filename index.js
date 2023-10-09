@@ -7,7 +7,7 @@ app.use(express.json());
 // Configuración de middleware
 app.use(
   cors({
-    origin: "https://descubrir-digital.com.ar", // Cambia esto según la dirección de tu cliente React
+    origin: "https://descubrir-digital.com.ar", 
     credentials: true,
   })
 );
